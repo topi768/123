@@ -1,0 +1,42 @@
+$main: #0F0F0F;
+$additional: #F1F1F1;
+$accent: #007AFF;
+
+/////
+$pd1: 15px;
+$pd2: 30px;
+$pd3: 60px;
+$pd4: 120px;
+
+/////
+$xs: 320px; 
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+//font
+@font-face {
+    font-family: "Inter SemiBold";
+    src: local("Inter"),
+     url(@/assets/font/Inter-SemiBold.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "Inter Medium";
+    src: local("Inter"),
+     url(@/assets/font/Inter-Medium.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "Inter Light";
+    src: local("Inter"),
+     url(@/assets/font/Inter-Light.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "Inter Regular";
+    src: local("Inter"),
+     url(@/assets/font/Inter-Regular.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "Inter Bold";
+    src: local("Inter"),
+     url(@/assets/font/Inter-Bold.ttf) format("truetype");
+  }
