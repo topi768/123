@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Main from '../pages/Main.vue'
+import MakeResume from '../pages/MakeResume.vue'
+
 
 const routes = [
   {
@@ -8,7 +10,9 @@ const routes = [
     component: Main
   },
   {
-
+    path: '/MakeResume',
+    name: 'MakeResume',
+    component: MakeResume
 
   }
 ]

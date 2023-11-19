@@ -7,7 +7,7 @@
             <router-link class="text-normal" to="/about">Контакты</router-link>
         </nav>
         <div class="btn" >
-            <router-link class="btn-text" to="/">Создать резюме</router-link>
+            <router-link class="btn-text" to="/MakeResume">Создать резюме</router-link>
         </div>
         
     </header>

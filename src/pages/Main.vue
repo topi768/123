@@ -21,9 +21,12 @@ export default {
 <style lang="scss" scoped>
 @import "@/assets/_variables.scss";
 
+
 .content {
     width: 100%;
     height: 100%;
+    
+    
 }
 main {
     text-align: center;
